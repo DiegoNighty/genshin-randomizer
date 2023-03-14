@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Tahoma';
+    src: local('Tahoma'), url(./assets/fonts/regular.ttf) format('truetype');
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 1080px;
+    height: 490px;
+    background: url(https://genshin.hoyoverse.com/_nuxt/img/b3d899f.png)  center/cover no-repeat;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.character-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
+
+.character-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.royal-btn {
+    margin-left: 120px;
+    display: block;
+    width: 360px;
+    height: 58px;
+    font-size: 24px;
+    color: #f4c780;
+    background: #393b40;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: inherit;
+}
+
+.title {
+    text-align: center;
+    line-height: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4e4d4b;
+}
